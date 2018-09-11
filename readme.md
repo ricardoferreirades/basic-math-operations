@@ -11,7 +11,7 @@ const op = new Operations();
 op.sum(1,2) // return -> 3;
 
 //Subtraction
-op.sub(10,2) // return -> 8;
+op.minus(10,2) // return -> 8;
 
 //Multiplication
 op.multiply(-5,-12) // return -> 60;
