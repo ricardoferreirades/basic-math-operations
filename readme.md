@@ -2,7 +2,7 @@
 Javascript pluging to execute basic mathematical operations.
 
 ### Initializing
-Create an instance of the Operations object and call the method to your operation.
+Create an instance of the Operations object and invoke the method for the chosen operation, passing the desired parameters.
 
 ```javascript
 const op = new Operations();
