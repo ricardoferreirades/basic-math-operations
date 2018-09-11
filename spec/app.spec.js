@@ -19,11 +19,11 @@ describe('Operations tests', function() {
 
     describe('Sub tests', function () {
         it('should return 0 as result of substraction of two numbers equals', function () {
-            expect(0).toEqual(operation.sub(10, 10));
+            expect(0).toEqual(operation.minus(10, 10));
         });
 
         it('should return a sub of negative numbers', function() {
-            expect(0).toEqual(operation.sub(-2,-2));
+            expect(0).toEqual(operation.minus(-2,-2));
         });
     });
 

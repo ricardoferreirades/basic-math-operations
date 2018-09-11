@@ -22,7 +22,7 @@ Operations.prototype.sum = function() {
     return result;
 }
 
-Operations.prototype.sub = function() {
+Operations.prototype.minus = function() {
     var args, result, i;
 
     args = argsToArray(arguments);
@@ -39,7 +39,7 @@ Operations.prototype.sub = function() {
 }
 
 Operations.prototype.multiply = function() {
-    var args, result;
+    var args, result, i;
 
     args = argsToArray(arguments);
 
@@ -55,7 +55,7 @@ Operations.prototype.multiply = function() {
 }
 
 Operations.prototype.divide = function() {
-    var args, result;
+    var args, result, i;
     
     args = argsToArray(arguments);
 
